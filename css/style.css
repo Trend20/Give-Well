@@ -223,3 +223,23 @@ nav ul li a.active {
         justify-content: center;
     }
 }
+
+
+/* sponsors */
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.sponsors h3 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+
+/* end sponsors */
