@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Imbue', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    background: #222;
+}
+
+header .logo {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 50px;
+    height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #fff;
+    background: #2196f3;
+}
+
+.btn {
+    background: #28a6af;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background: #ce5d59;
+    border: none;
+    border-radius: 7px;
+}
+
+.toggle {
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:991px) {
+    header {
+        padding: 0 20px;
+    }
+    .toggle {
+        display: block;
+    }
+    header nav {
+        /* display: none; */
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        left: -100%;
+        top: 50px;
+        transition: 0.5s;
+    }
+    header nav.acive {
+        left: 0;
+    }
+    header nav,
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+}
+
+
+/* hero styles */
+
+.hero {
+    display: flex;
+    margin-top: 200px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hero-text h3 {
+    font-size: 5rem;
+    display: flex;
+    width: 90%;
+    font-weight: 900;
+    opacity: 0.7;
+}
+
+.hero-text p {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
