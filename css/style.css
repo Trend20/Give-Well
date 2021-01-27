@@ -86,10 +86,14 @@ nav ul li a.active {
 
 @media (max-width:991px) {
     header {
-        padding: 0 20px;
+        padding: 30px;
     }
     .toggle {
         display: block;
+    }
+    .toggle i {
+        display: block;
+        font-size: 2rem;
     }
     header nav {
         /* display: none; */
@@ -119,7 +123,7 @@ nav ul li a.active {
 
 .hero {
     display: flex;
-    margin-top: 200px;
+    margin-top: 150px;
     width: 100%;
     justify-content: space-between;
     padding: 30px;
@@ -145,4 +149,77 @@ nav ul li a.active {
     opacity: 0.7;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text button {
+    margin-top: 20px;
+    width: 30%;
+    padding: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    border-radius: 7px;
+    background: #ec6a65;
+    outline: none;
+}
+
+.hero-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+    /* hero styles */
+    .hero {
+        display: flex;
+        margin-top: 150px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-text h3 {
+        font-size: 5rem;
+        display: flex;
+        width: 100%;
+        font-weight: 900;
+        opacity: 0.7;
+    }
+    .hero-text p {
+        margin-top: 30px;
+        font-size: 1.3rem;
+        opacity: 0.7;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .hero-text button {
+        margin-top: 20px;
+        width: 50%;
+        padding: 25px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1rem;
+        border: none;
+        border-radius: 7px;
+        background: #ec6a65;
+        outline: none;
+    }
+    .hero-image {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
 }
