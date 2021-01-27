@@ -9,6 +9,10 @@ body {
     font-family: 'Imbue', serif;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -277,3 +281,66 @@ nav ul li a.active {
 
 
 /* end sponsors */
+
+
+/* description */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-header {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    opacity: 0.7;
+}
+
+.d-cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: #ec6a65;
+    border-radius: 7px;
+}
+
+.card h1 {
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    padding: 18px;
+    width: 25%;
+}
+
+.card h3 {
+    display: flex;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.card p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+
+/* end of description */
