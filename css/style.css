@@ -342,5 +342,30 @@ nav ul li a.active {
     line-height: 1.5;
 }
 
+#verity {
+    background: #dd8a75;
+}
+
+#verity h1 {
+    background: #cc6e57;
+}
+
+#transparency {
+    background: #b9dfe2;
+}
+
+#transparency h1 {
+    background: #8acbcf;
+    font-size: 2rem;
+}
+
+#purposefulness {
+    background: #fdb492;
+}
+
+#purposefulness h1 {
+    background: #e08e67;
+}
+
 
 /* end of description */
