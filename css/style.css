@@ -241,5 +241,39 @@ nav ul li a.active {
     opacity: 0.8;
 }
 
+.sponsor-image {
+    display: flex;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsor-image {
+        display: flex;
+        width: 90%;
+        margin-left: 30px;
+        margin-top: 30px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sponsor-image img {
+        width: 40%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
 
 /* end sponsors */
