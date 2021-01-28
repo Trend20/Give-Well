@@ -497,5 +497,95 @@ nav ul li a.active {
     margin-top: 20px;
 }
 
+.e-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 30px;
+    padding: 50px;
+}
+
+.e-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-card img {
+    display: flex;
+    justify-content: center;
+}
+
+.e-card h3 {
+    font-size: 3rem;
+    opacity: 0.7;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.e-card p {
+    margin-top: 20px;
+    display: flex;
+    color: #ec6a65;
+    font-size: 1.2rem;
+}
+
+.e-card p i {
+    margin-right: 20px;
+}
+
+.e-card button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background: #8acbcf;
+    font-weight: 700;
+    width: 30%;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width:991px) {
+    .events {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 100px 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .e-head p {
+        font-size: 1rem;
+        opacity: 0.7;
+        width: 100%;
+        line-height: 1.8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .e-gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-gap: 30px;
+        padding: 50px;
+    }
+    .e-card h3 {
+        font-size: 2rem;
+        opacity: 0.7;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .e-card p {
+        margin-top: 20px;
+        display: flex;
+        color: #ec6a65;
+        font-size: 1rem;
+    }
+}
+
 
 /* end of events styles */
