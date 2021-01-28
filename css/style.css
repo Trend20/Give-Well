@@ -430,6 +430,7 @@ nav ul li a.active {
     font-size: 4rem;
     display: flex;
     width: 95%;
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 991px) {
@@ -459,3 +460,42 @@ nav ul li a.active {
 
 
 /* end of banner section */
+
+
+/* events styles */
+
+.events {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.e-head h1 {
+    font-size: 3rem;
+    opacity: 0.7;
+}
+
+.e-head p {
+    font-size: 1.5rem;
+    opacity: 0.7;
+    width: 55%;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* end of events styles */
