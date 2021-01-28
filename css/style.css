@@ -432,5 +432,30 @@ nav ul li a.active {
     width: 95%;
 }
 
+@media screen and (max-width: 991px) {
+    .banner {
+        display: flex;
+        width: 100%;
+        padding: 70px 30px;
+        background: #d3e9d8;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-image {
+        width: 100%;
+    }
+    .banner-image img {
+        display: flex;
+        width: 100%;
+    }
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 15px;
+    }
+}
+
 
 /* end of banner section */
