@@ -9,7 +9,8 @@ body {
     font-family: 'Imbue', serif;
 }
 
-p {
+p,
+a {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -662,3 +663,76 @@ nav ul li a.active {
 
 
 /* end help */
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    width: 100%;
+    padding: 100px 50px;
+    justify-content: space-between;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us h3 {
+    font-size: 2rem;
+}
+
+.contact-details {
+    margin-top: 30px;
+    opacity: 0.6;
+    font-size: 1.1rem;
+}
+
+.contact-details p {
+    margin-top: 10px;
+}
+
+#address {
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+#address a {
+    color: #e47878;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 30px;
+    display: flex;
+}
+
+.copyright p {
+    margin-right: 20px;
+}
+
+.copyright p a {
+    text-decoration: none;
+    color: #28a6af;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.social a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #28a6af;
+}
+
+
+/* end footer */
