@@ -262,6 +262,15 @@ nav ul li a.active {
         justify-content: center;
         align-items: center;
     }
+    .sponsors h3 {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 2rem;
+        opacity: 0.8;
+    }
     .sponsor-image {
         display: flex;
         width: 90%;
@@ -670,13 +679,15 @@ nav ul li a.active {
 .footer {
     display: flex;
     width: 100%;
-    padding: 100px 50px;
+    padding: 50px 20px;
     justify-content: space-between;
 }
 
 .contact-us {
     display: flex;
     flex-direction: column;
+    width: 30%;
+    justify-content: center;
 }
 
 .contact-us h3 {
@@ -703,23 +714,11 @@ nav ul li a.active {
     text-decoration: none;
 }
 
-.copyright {
-    margin-top: 30px;
-    display: flex;
-}
-
-.copyright p {
-    margin-right: 20px;
-}
-
-.copyright p a {
-    text-decoration: none;
-    color: #28a6af;
-}
-
 .social {
     display: flex;
     flex-direction: column;
+    width: 30%;
+    justify-content: center;
 }
 
 .social h3 {
@@ -732,6 +731,165 @@ nav ul li a.active {
     text-decoration: none;
     font-size: 1.1rem;
     color: #28a6af;
+}
+
+.subscribe {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subscribe h3 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+}
+
+form input {
+    outline: none;
+    display: flex;
+    padding: 20px 0px;
+    border: none;
+    margin-right: 30px;
+    border-bottom: 3px solid #e47878;
+}
+
+form input::placeholder {
+    font-size: 1.2rem;
+}
+
+form button {
+    width: 30%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #28a6af;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.copyright {
+    margin-top: 30px;
+    display: flex;
+    padding: 20px 30px;
+}
+
+.copyright p {
+    margin-right: 20px;
+}
+
+.copyright p a {
+    text-decoration: none;
+    color: #28a6af;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 991px) {
+    .footer {
+        display: flex;
+        width: 100%;
+        padding: 100px 50px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .contact-us h3 {
+        font-size: 2rem;
+    }
+    .contact-details {
+        margin-top: 30px;
+        opacity: 0.6;
+        font-size: 1.1rem;
+    }
+    .contact-details p {
+        margin-top: 10px;
+    }
+    #address {
+        margin-top: 30px;
+        text-decoration: none;
+    }
+    #address a {
+        color: #e47878;
+        text-decoration: none;
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .social h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .social a {
+        margin-top: 20px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: #28a6af;
+    }
+    .subscribe {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .subscribe h3 {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+    form {
+        display: flex;
+    }
+    form input {
+        outline: none;
+        display: flex;
+        padding: 20px 0px;
+        border: none;
+        margin-right: 30px;
+        border-bottom: 3px solid #e47878;
+    }
+    form input::placeholder {
+        font-size: 1.2rem;
+    }
+    form button {
+        width: 30%;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background: #28a6af;
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 700;
+        border-radius: 7px;
+    }
+    .copyright {
+        margin-top: 30px;
+        display: flex;
+        padding: 20px 30px;
+    }
+    .copyright p {
+        margin-right: 20px;
+    }
+    .copyright p a {
+        text-decoration: none;
+        color: #28a6af;
+    }
 }
 
 
