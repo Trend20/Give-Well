@@ -589,3 +589,76 @@ nav ul li a.active {
 
 
 /* end of events styles */
+
+
+/* help */
+
+.help {
+    background: #d3e9d8;
+    padding: 100px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.help h3 {
+    font-size: 4rem;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help p {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.help button {
+    margin-bottom: 100px;
+    width: 20%;
+    padding: 30px;
+}
+
+
+/* responsiveness */
+
+@media screen and (max-width: 991px) {
+    .help {
+        background: #d3e9d8;
+        padding: 100px 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .help h3 {
+        font-size: 3rem;
+        opacity: 0.7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .help p {
+        margin-top: 30px;
+        font-size: 1.3rem;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .help button {
+        margin-bottom: 100px;
+        width: 50%;
+        padding: 30px;
+    }
+}
+
+
+/* end help */
