@@ -135,3 +135,60 @@
 
 
 /* end relief */
+
+
+/* principles */
+
+.principles {
+    display: flex;
+    padding: 100px 30px;
+    width: 100%;
+}
+
+.p-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.p-container h1 {
+    display: flex;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+.p-container p {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 991px) {
+    .principles {
+        display: flex;
+        padding: 30px 10px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .p-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .p-container h1 {
+        display: flex;
+        font-size: 3rem;
+        opacity: 0.8;
+    }
+    .p-container p {
+        margin-top: 40px;
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+}
+
+
+/* end principles */
