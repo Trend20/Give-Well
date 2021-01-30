@@ -1,0 +1,135 @@
+.about-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 250px;
+    background: rgb(247, 216, 216);
+}
+
+.about-introduction h3 {
+    font-size: 4rem;
+    width: 50%;
+    text-align: center;
+}
+
+.about-introduction p {
+    display: flex;
+    width: 60%;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    .about-introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-top: 150px;
+        background: rgb(247, 216, 216);
+    }
+    .about-introduction h3 {
+        font-size: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+    .about-introduction p {
+        display: flex;
+        width: 100%;
+        line-height: 1.8;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+
+/* relief */
+
+.relief {
+    display: flex;
+    width: 100%;
+    padding: 100px 30px;
+}
+
+.relief-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relief-image img {
+    display: flex;
+    align-items: center;
+}
+
+.relief-text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 50%;
+}
+
+.relief-text h3 {
+    font-size: 3rem;
+    width: 80%;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.relief-text p {
+    display: flex;
+    margin-top: 30px;
+    opacity: 0.6;
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 991px) {
+    .relief {
+        display: flex;
+        width: 100%;
+        padding: 100px 30px;
+        flex-direction: column;
+    }
+    .relief-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .relief-image img {
+        display: flex;
+        align-items: center;
+    }
+    .relief-text {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        width: 50%;
+    }
+    .relief-text h3 {
+        font-size: 3rem;
+        width: 80%;
+        opacity: 0.8;
+    }
+    .relief-text p {
+        display: flex;
+        margin-top: 30px;
+        opacity: 0.6;
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+}
+
+
+/* end relief */
