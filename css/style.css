@@ -65,7 +65,7 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.active {
     color: #fff;
-    background: #2196f3;
+    border-bottom: 3px solid #ec6a65;
 }
 
 .btn {
