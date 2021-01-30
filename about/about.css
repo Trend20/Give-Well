@@ -109,16 +109,18 @@
     .relief-image img {
         display: flex;
         align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     .relief-text {
         display: flex;
         flex-direction: column;
-        padding: 50px;
-        width: 50%;
+        padding: 10px;
+        width: 100%;
     }
     .relief-text h3 {
         font-size: 3rem;
-        width: 80%;
+        width: 100%;
         opacity: 0.8;
     }
     .relief-text p {
