@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0.7;
 }
 
 .intro-head h3{
@@ -27,3 +28,46 @@
     text-align: center;
 }
 
+.support-forms{
+    opacity: 0.7;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 50px;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forms h1{
+    border: none;
+    border-radius: 50%;
+    font-size: 3rem;
+}
+
+#volunteer{
+    background: rgb(253, 131, 109);
+    padding: 20px;
+    color: #fff;
+}
+
+#fundraise{
+    background: rgb(143, 210, 236);
+    padding: 20px;
+    color: #fff;
+}
+
+.forms h3{
+    margin-top: 30px;
+    font-size: 3rem;
+} 
+
+.forms p{
+    margin-top: 20px;
+    opacity: 0.8;
+    width: 80%;
+    text-align: center;
+}
