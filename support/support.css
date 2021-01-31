@@ -1,0 +1,29 @@
+.support-intro{
+    padding: 230px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(207, 240, 233);
+}
+
+
+.intro-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-head h3{
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+}
+
+.intro-head p{
+    margin-top: 20px;
+    width: 70%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
