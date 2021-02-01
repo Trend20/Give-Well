@@ -193,7 +193,7 @@
 }
 
 .mode-container p{
-    margin-top: 30px;
+    margin: 30px 0px;
     font-size: 1.2rem;
     line-height: 1.7;
     opacity: 0.6;
@@ -201,6 +201,28 @@
 }
 
 #address{
-    color: rgb(228, 82, 82);
+    color: #e45252;
+}
+
+.mode-container a{
+    color: #e45252;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.6;
+}
+
+.mode-container a:hover{
+    color: #73c9e4;
+}
+
+.d-modes button{
+    width: 18%;
+    padding: 30px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    background: #28a6af;
 }
 /* end modes */
