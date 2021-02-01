@@ -154,6 +154,8 @@
     }
 }
 
+/* end suppot */
+
 /* modes */
 
 .d-modes{
@@ -216,13 +218,38 @@
 }
 
 .d-modes button{
-    width: 18%;
-    padding: 30px;
+    width: 35%;
+    padding: 25px;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 700;
     cursor: pointer;
     outline: none;
     background: #28a6af;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:991px){
+
+    .d-modes{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 100px 30px;
+    }
+    
+    .d-modes h1{
+        font-size: 2rem;
+    }
+    
+    .modes{
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        margin-top: 50px;
+    }
+    
 }
 /* end modes */
