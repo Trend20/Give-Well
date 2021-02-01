@@ -61,7 +61,21 @@
 
 #form textarea{
     border: none;
-    padding: 30px;
     border-bottom: 3px solid rgb(214, 211, 211);
     outline: none;
+    margin-top: 20px;
+}
+
+#form textarea::placeholder{
+    font-size: 1.2rem;
+}
+
+#form button{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
+#form button:hover{
+    background: #8acbcf;
 }
