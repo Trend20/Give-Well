@@ -155,3 +155,52 @@
 }
 
 /* modes */
+
+.d-modes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 30px;
+}
+
+.d-modes h1{
+    text-align: center;
+    font-size: 5rem;
+    opacity: 0.6;
+}
+
+.modes{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    margin-top: 50px;
+}
+
+.mode-container{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.mode-container img{
+    display: flex;
+    max-width: 100%;
+}
+
+.mode-container h3{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    opacity: 0.6;
+}
+
+.mode-container p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    opacity: 0.6;
+    width: 90%;
+}
+
+#address{
+    color: rgb(228, 82, 82);
+}
+/* end modes */
