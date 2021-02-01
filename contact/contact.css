@@ -8,6 +8,7 @@
 .info{
     display: flex;
     width: 100%;
+    margin-top: 100px;
 }
 
 .info-text{
@@ -29,9 +30,38 @@
     margin-top: 30px;
 }
 
+.info-link{
+    margin-top: 30px;
+}
+
+.info-link p{
+    margin-top: 10px;
+}
+
+.info-link p a{
+    margin-left: 10px;
+    color: #ce5d59;
+    text-decoration: none;
+}
+
+.info-link p a:hover{
+    color: #8acbcf;
+}
+
 #form{
     display: flex;
     flex-direction: column;
     width: 50%;
     margin-left: 30px;
+}
+
+#form input{
+    border-bottom: 3px solid rgb(214, 211, 211);
+}
+
+#form textarea{
+    border: none;
+    padding: 30px;
+    border-bottom: 3px solid rgb(214, 211, 211);
+    outline: none;
 }
