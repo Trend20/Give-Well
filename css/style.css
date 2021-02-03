@@ -108,6 +108,7 @@ nav ul li a.active {
         height: calc(100vh - 50px);
         background: #222;
         left: -100%;
+        z-index: 99;
         top: 50px;
         transition: 0.5s;
     }
