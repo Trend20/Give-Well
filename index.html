@@ -31,7 +31,9 @@
 
         <header>
             <div class="logo">
+               <a href="index.html">
                 <img src="./img/logo.png" alt="">
+               </a>
             </div>
 
             <nav>
@@ -236,6 +238,18 @@
             <p><a href="#"> Privacy Policy</a></p>
         </div>
     </div>
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+
+    <!-- internal javascript -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
 </body>
 
 </html>

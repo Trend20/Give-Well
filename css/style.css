@@ -37,6 +37,7 @@ header .logo {
     font-size: 24px;
     float: left;
     font-weight: bold;
+    cursor: pointer;
 }
 
 nav {
