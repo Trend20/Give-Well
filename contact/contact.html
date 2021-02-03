@@ -36,7 +36,7 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="../about/about.html">About</a></li>
                     <li><a href="../support/support.html">Support Us</a></li>
                     <li><a href="#">Events</a></li>
@@ -124,5 +124,17 @@
             <p><a href="#"> Privacy Policy</a></p>
         </div>
     </div>
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    
+    <!-- internal javascript -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
 </body>
 </html>
