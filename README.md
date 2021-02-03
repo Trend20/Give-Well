@@ -1,4 +1,4 @@
-![](images/givewell.png)
+![](img/givewell.png)
 # Social Support website.
 **Site URL**: http://give-well-git-master.trend20.vercel.app/
 
