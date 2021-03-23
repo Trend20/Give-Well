@@ -9,6 +9,10 @@ body {
     font-family: 'Imbue', serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 p,
 a {
     font-family: 'Montserrat', sans-serif;
@@ -104,7 +108,7 @@ nav ul li a.active {
         /* display: none; */
         position: absolute;
         width: 100%;
-        height: calc(100vh - 50px);
+        height: 300px;
         background: #222;
         left: -100%;
         z-index: 99;
@@ -798,7 +802,7 @@ form button {
     .footer {
         display: flex;
         width: 100%;
-        padding: 100px 50px;
+        padding: 10px 50px;
         justify-content: center;
         flex-direction: column;
     }
@@ -812,7 +816,7 @@ form button {
         font-size: 2rem;
     }
     .contact-details {
-        margin-top: 30px;
+        margin-top: 10px;
         opacity: 0.6;
         font-size: 1.1rem;
     }
@@ -896,3 +900,34 @@ form button {
 
 
 /* end footer */
+
+#myBtn{
+    display: none;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    background-color: rgb(228, 16, 16);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    z-index: 99;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 20px;
+    transition: ease .5s;
+    width: 5%;
+}
+#myBtn:hover{
+    background-color: #555;
+}
+
+@media screen and (max-width:991px){
+    #myBtn{
+        padding: 15px;
+        transition: ease .5s;
+        width: 12%;
+    }
+}
